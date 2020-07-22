@@ -9,7 +9,7 @@ FROM debian:latest
 
 MAINTAINER hihouhou < hihouhou@hihouhou.com >
 
-ENV SSLSCAN_VERSION 1.11.12-rbsec
+ENV SSLSCAN_VERSION 2.0.0
 
 #Update & install packages for installting curl
 RUN apt-get update && \
