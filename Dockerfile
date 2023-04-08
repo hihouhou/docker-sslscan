@@ -9,7 +9,7 @@ FROM debian:latest
 
 MAINTAINER hihouhou < hihouhou@hihouhou.com >
 
-ENV SSLSCAN_VERSION 2.0.15
+ENV SSLSCAN_VERSION 2.0.16
 
 #Update & install packages for installting curl
 RUN apt-get update && \
