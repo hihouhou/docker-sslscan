@@ -9,7 +9,7 @@ FROM debian:latest
 
 LABEL org.opencontainers.image.authors="hihouhou < hihouhou@hihouhou.com >"
 
-ENV SSLSCAN_VERSION=2.1.4
+ENV SSLSCAN_VERSION=2.1.5
 
 #Update & install packages for installting curl
 RUN apt-get update && \
